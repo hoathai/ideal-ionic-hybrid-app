@@ -1,15 +1,15 @@
 (function() {
     var isMobile = false;
     
-    angular.module('IdealApp', ['ionic', 'IdealApp.controllers', 'IdealApp.services'])
+    angular.module('RASworkspaces', ['ionic', 'RASworkspaces.controllers', 'RASworkspaces.services', 'ui.bootstrap'])
            .controller('Base', function($scope, S_globalFlags) {
         console.log("### Controller - Base ###");
         
         S_globalFlags.set("MobileView", isMobile);
         
         var MobileView = S_globalFlags.get("MobileView");
-        $scope.C_mView = MobileView;
-        $scope.C_hdView = !MobileView;
+        $scope.C_MobileView = MobileView;
+        $scope.C_DesktopView = !MobileView;
     })
            .run(function($ionicPlatform) {
         $ionicPlatform.ready(function() {

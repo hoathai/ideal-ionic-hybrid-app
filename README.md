@@ -9,7 +9,7 @@ Download IdealApp Files
 	- bower.json
 	- config.xml
 	- ionic.project
-	- package.jason
+	- package.json
 	
 	Optional: Change the files below and rename "IdealApp" with your new project name. 
 	

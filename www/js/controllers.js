@@ -1,5 +1,5 @@
 (function() {
-    angular.module('IdealApp.controllers', [])
+    angular.module('RASworkspaces.controllers', [])
            .controller('ContentMobile', function($scope, S_defaultData) {
         console.log("### Controller - Content Base (Mobile) ###");
     })

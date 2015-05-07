@@ -1,5 +1,5 @@
 (function() {
-    angular.module('IdealApp.services', [])
+    angular.module('RASworkspaces.services', [])
            .factory('S_defaultData', function() {
         var defaultData = {};
         

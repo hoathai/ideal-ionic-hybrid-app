@@ -1,5 +1,5 @@
 {
-  "name": "Ideal-App",
+  "name": "ras-app",
   "app_id": "",
   "gulpStartupTasks": [
     "sass",
