@@ -2,7 +2,7 @@
 ### Desktop SASS
 */
 
-@import "www/lib/bootstrap-sass/assets/stylesheets/_bootstrap";
+@import "../www/lib/bootstrap-sass/assets/stylesheets/_bootstrap";
 
 .nav, .pagination, .carousel, .panel-title a {
 	/* ### Recommended by Angular UI Bootstrap */
@@ -10,5 +10,4 @@
 }
 
 body {
-
 }
